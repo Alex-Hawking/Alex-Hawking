@@ -1,5 +1,6 @@
-<h2>﴾⌐■ ͟ʖ■﴿</h2>
-<h1>Hi there, I'm Alex Hawking 👋</h1>
+<h2>﴾⌐■ ͟ʖ■﴿<br>
+Hi there, I'm Alex Hawking 👋
+</h2>
 
 ### Connect with me:
 
