@@ -3,7 +3,12 @@ Hi there, I'm Alex Hawking 👋
 </h2>
 
 # I'm an amateur dev from Western Australia!
-- 👩‍💻 I enjoy developing apps using TKinter and Electron
+- 👨‍🎓 I am a high school student studying Applied Information Technologies and Design
+- 👩‍💻 I love developing apps using TKinter and Electron
+- 🚀 I enjoy making websites with HTML, JQuery, CoffeeScript Bootstrap and SASS
+- 🎨 I love using the Adobe Suite for all kinds of creative endeavours
+- 🎼 I use LMMS for music and sound production
+- 🎮 I am currently learning game design
 
 <br><br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alex-Hawking&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
@@ -22,3 +27,4 @@ Hi there, I'm Alex Hawking 👋
 [youtube]: https://www.youtube.com/channel/UC6QPwMH-9lBTW6LrIt2A_Wg
 [instagram]: https://www.instagram.com/alexh6230/
 [itch.io]: https://alexhawking.itch.io/
+[soundcloud]: https://soundcloud.com/onecubed
