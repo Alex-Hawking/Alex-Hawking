@@ -19,13 +19,11 @@ Hi there, I'm Alex Hawking 👋
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/soundcloud.svg" />][soundcloud]
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/stackoverflow.svg" />][stackoverflow]
 
-<br>
+<br><br>
 
 ## 📈 GitHub Stats
 
 [![Alex's github stats](https://github-readme-stats.vercel.app/api?username=Alex-Hawking)](https://github.com/anuraghazra/github-readme-stats)
-
-<br>
 
 ## 💬 My Languages
 
