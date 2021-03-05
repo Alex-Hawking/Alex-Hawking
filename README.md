@@ -5,7 +5,7 @@ Hi there, I'm Alex Hawking 👋
 ## I'm an amateur dev from Western Australia!
 - 👨‍🎓 I am a high school student studying Applied Information Technologies and Design
 - 👩‍💻 I love developing apps using TKinter and Electron
-- 🚀 I enjoy making websites with HTML, JQuery, CoffeeScript Bootstrap and SASS
+- 🚀 I enjoy making websites with HTML, JQuery, Node, CoffeeScript Bootstrap and SASS
 - 🎨 I love using the Adobe Suite for all kinds of creative endeavours
 - 🎼 I use LMMS for music and sound production
 - 🎮 I am currently learning game design
