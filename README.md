@@ -2,6 +2,8 @@
 Hi there, I'm Alex Hawking 👋
 </h3>
 
+You can find my published apps here: [itch.io]: https://alexhawking.itch.io/
+
 ## I'm an amateur dev from Western Australia!
 - 👨‍🎓 I am a high school student studying Applied Information Technologies and Design
 - 🚀 I enjoy making websites with HTML, JQuery, Node, CoffeeScript Bootstrap and SASS
