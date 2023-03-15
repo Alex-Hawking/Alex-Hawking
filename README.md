@@ -4,11 +4,6 @@ Hi there, I'm Alex Hawking 👋
 
 You can find my published apps here: [itch.io]
 
-## I'm an amateur dev from Western Australia!
-- 👨‍🎓 I am a high school student studying Applied Information Technologies and Design
-- 🚀 I enjoy making websites with HTML, JQuery, Node, CoffeeScript Bootstrap and SASS
-- 🎨 I love using the Adobe Suite for all kinds of creative endeavours
-
 ## Connect with me:
 
 [<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
