@@ -16,15 +16,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Update README with Date
+    - name: Update README
       run: bash update.sh ${{ secrets.DC_TOKEN }}
       
     - name: Commit and Push
       run: |
-        git config --global user.name 'Your Name's
-        git config --global user.email 'your-email@example.com'
+        git config --global user.name 'Alex-Hawking'
+        git config --global user.email 'alexhawking23@gmail.com'
         git add README.md
-        git commit -m "Update README with today's date"
+        git commit -m "Update README with today's stuff"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

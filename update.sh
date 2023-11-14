@@ -13,8 +13,6 @@ RESPONSE=$(curl -s -H "Authorization: Discogs token=$TOKEN" "$COLLECTION_URL")
 # Parse and get a random record
 RANDOM_RECORD=$(echo $RESPONSE | jq -r '.releases[] | "\(.basic_information.title) - \(.basic_information.artists[].name)"' | shuf -n 1)
 
-echo $RANDOM_RECORD
-
 DAY=$(date +%A)
 
 # Replace placeholders in a temporary file
