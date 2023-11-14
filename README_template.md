@@ -11,4 +11,4 @@ Every day, I share a random album from my [Discogs collection](https://www.disco
 
 Feel free to explore my repositories and projects. If you have any questions or just want to chat about music or coding, don't hesitate to reach out. Enjoy your visit! 🎶👨‍💻
 
-[My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
+[My Personal Website](https://www.alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
