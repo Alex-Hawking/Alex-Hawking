@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Update README with Date
+      run: bash update_readme.sh
+      
+    - name: Commit and Push
+      run: |
+        git config --global user.name 'Your Name's
+        git config --global user.email 'your-email@example.com'
+        git add README.md
+        git commit -m "Update README with today's date"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
