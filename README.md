@@ -1,5 +1,1 @@
-<h3>﴾⌐■ ͟ʖ■﴿<br><br>
-Hi there, I'm Alex Hawking 👋
-</h3>
-
-
+Today's date is 2023-11-14
