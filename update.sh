@@ -10,5 +10,6 @@ RESPONSE=$(curl -s -H "Authorization: Discogs token=$TOKEN" "$COLLECTION_URL")
 
 # Parse and get a random record
 RANDOM_RECORD=$(echo $RESPONSE | jq -r '.releases[] | "\(.basic_information.title) - \(.basic_information.artists[].name)"' | shuf -n 1)
-day_as_word=$(date +%A)
-echo "# Hello and welcome to **$day_as_word**! <br> Todays Album is: *$RANDOM_RECORD*" > README.md
+DAY=$(date +%A)
+
+cat README.md | sed "s/\\${DAY}/$DAY/g; s/\\${RANDOM_RECORD}/$RANDOM_RECORD/g" > README.md
