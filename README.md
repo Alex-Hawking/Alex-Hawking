@@ -1,3 +1,6 @@
-## Hello and welcome to **Tuesday**!
+## Hello World! (⌐■ ͟ʖ■) 
+### and welcome to **Tuesday**!
 
-Todays Album is: *Teaser And The Firecat - Cat Stevens*
+> ** Todays Album is: *Honey Bones - Dope Lemon* ** 
+> *This is a random record from my ![collection](https://www.discogs.com/user/ah33808/collection)*
+
