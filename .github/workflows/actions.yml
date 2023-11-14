@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Update README with Date
-      run: bash update_readme.sh
+      run: bash update.sh
       
     - name: Commit and Push
       run: |
