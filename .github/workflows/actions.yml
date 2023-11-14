@@ -1,8 +1,11 @@
 name: Update README
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+    schedule:
+      - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+    push:
+      branches:
+        - main
 
 jobs:
   update-readme:
