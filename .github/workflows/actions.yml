@@ -1,13 +1,13 @@
 name: Update README
 
 on:
+    # Runs at 00:00 UTC every day
     schedule:
-      - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+      - cron: '0 0 * * *'
+    
+    # Manually dispatch on push to update
     workflow_dispatch:
-        
-    push:
-        branches:
-            - main
+
 
 jobs:
   update-readme:
@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Update README with Date
-      run: bash update.sh
+      run: bash update.sh ${{ secrets.DC_TOKEN }}
       
     - name: Commit and Push
       run: |
