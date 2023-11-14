@@ -1,1 +1,1 @@
-Today's date is 2023-11-14
+Hello and welcome to Tuesday! \n Todays Album is: Green River - Creedence Clearwater Revival
