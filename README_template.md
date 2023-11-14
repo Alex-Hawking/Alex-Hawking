@@ -2,7 +2,7 @@
 > [!WARNING]
 > It is **${DAY}** already
 
-I'm Alex Hawking, and I'm passionate about music, code, and everything in between. 🎵💻
+I'm ***Alex Hawking***, and I'm passionate about music, code, and everything in between. 🎵💻
 
 Every day, I share a random album from my [Discogs collection](https://www.discogs.com/user/ah33808/collection) with you, so you can discover new music and explore my superior taste.
 
