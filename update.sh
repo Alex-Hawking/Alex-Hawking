@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Replace with your Discogs username and token
 USERNAME="ah33808"
 TOKEN=$1
 
