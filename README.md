@@ -1,13 +1,13 @@
 ## Hello World (⌐■ ͟ʖ■) 
 > [!WARNING]
-> It is **Wednesday** already
+> It is **Thursday** already
 
 I'm ***Alex Hawking***, and I'm passionate about music, code, and everything in between. 🎵💻
 
 Every day, I share a random album from my [Discogs collection](https://www.discogs.com/user/ah33808/collection) with you, so you can discover new music and explore my superior taste.
 
 ### Today's Pick
-> TYRON - slowthai
+> Illmatic - Nas
 
 Feel free to explore my repositories and projects. If you have any questions or just want to chat about music or coding, don't hesitate to reach out. Enjoy your visit! 🎶👨‍💻
 
