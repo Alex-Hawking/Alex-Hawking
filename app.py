@@ -17,24 +17,12 @@ def edit_background_color(html_file, element_id, new_color):
 
         with open(html_file, 'w') as file:
             file.write(str(soup))
-
-        with open(html_file, 'r') as file:
-            html_content = file.read()
-
-        with open('README_text.md', 'r') as file:
-            markdown_content = file.read()
-
-
-        new_content = markdown_content + "\n\n" + html_content
-
-        with open('README.md', 'w') as file:
-            file.write(new_content)
         return True
     else:
         return False
 
 # Example usage
-html_file = 'table.html'  
+html_file = 'table.svg'  
 
 app = Flask(__name__)
 @app.route('/update-color', methods=['POST'])
