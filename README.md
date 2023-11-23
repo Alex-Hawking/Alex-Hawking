@@ -7,6 +7,9 @@ I am trying out something new
 [My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
 
 
+<svg fill="none" height="300" viewbox="0 0 600 300" width="600" xmlns="http://www.w3.org/2000/svg">
+<foreignobject height="100%" width="100%">
+<div xmlns="http://www.w3.org/1999/xhtml">
 <table style="border-collapse: collapse;">
 <tr>
 <td id="0x0" style="background-color: #FF5733;"></td>
@@ -129,3 +132,6 @@ I am trying out something new
 <td id="9x9" style="width: 45px; height: 45px; background-color: black;"></td>
 </tr>
 </table>
+</div>
+</foreignobject>
+</svg>
