@@ -1,9 +1,9 @@
-<svg fill="none" viewBox="0 0 450 450" width="450" height="450" xmlns="http://www.w3.org/2000/svg">
-<foreignObject width="100%" height="100%">
+<svg fill="none" height="450" viewbox="0 0 450 450" width="450" xmlns="http://www.w3.org/2000/svg">
+<foreignobject height="100%" width="100%">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <table style="border-collapse: collapse;">
 <tr>
-<td id="0x0" style="background-color: red;"></td>
+<td id="0x0" style="background-color: #FF5733;"></td>
 <td id="1x0" style="width: 45px; height: 45px; background-color: black;"></td>
 <td id="2x0" style="width: 45px; height: 45px; background-color: black;"></td>
 <td id="3x0" style="width: 45px; height: 45px; background-color: black;"></td>
@@ -124,5 +124,5 @@
 </tr>
 </table>
 </div>
-</foreignObject>
+</foreignobject>
 </svg>
