@@ -13,7 +13,7 @@ def edit_background_color(html_file, element_id, new_color):
         html_content = file.read()
 
     # Parse the HTML
-    soup = BeautifulSoup(html_content, 'html.parser')
+    soup = BeautifulSoup(html_content, 'xml')
 
     # Find the element by ID
     element = soup.find(id=element_id)
