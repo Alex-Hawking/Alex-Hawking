@@ -6,6 +6,9 @@ import os
 github_token = os.environ.get('TOKEN')
 repo_url = f'https://Alex-Hawking:{github_token}@github.com/Alex-Hawking/Alex-Hawking.git'
 
+subprocess.run(['git', 'clone', repo_url, 'repo_folder'])
+
+os.chdir('repo_folder')
 
 def edit_background_color(html_file, element_id, new_color):
     # Read the HTML file
