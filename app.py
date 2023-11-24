@@ -26,7 +26,7 @@ def edit_background_color(html_file, element_id, new_color):
     element = soup.find(id=element_id)
     if element:
         # Modify the background color
-        element['style'] = f'width: 45px; height: 45px; background-color: {new_color};'
+        element['style'] = f'width: 25px; height: 25px; background-color: {new_color};'
 
         with open(html_file, 'w') as file:
             file.write(str(soup))
