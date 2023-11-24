@@ -6,6 +6,8 @@ import os
 github_token = os.environ.get('TOKEN')
 repo_url = f'https://Alex-Hawking:{github_token}@github.com/Alex-Hawking/Alex-Hawking.git'
 
+readme_file='./README.md'
+
 subprocess.run(['git', 'config', '--global', 'user.email', 'alexhawking23@gmail.com'])
 subprocess.run(['git', 'config', '--global', 'user.name', 'Alex-Hawking'])
 
@@ -39,14 +41,21 @@ def edit_background_color(html_file, element_id, new_color):
         if result.returncode != 0:
             print("Error pushing to GitHub:", result.stderr)
             return False
-        else:
-            print("Pushed successfully:", result.stdout)
+        
+        with open('./README_template.md', 'r') as file:
+            readme_contents = file.read()
+
+        updated_contents = readme_contents.replace('$RECENT UPDATE$', "Most recent change: " + element_id + " to " + new_color)
+
+        with open('./README.md', 'w') as file:
+            file.write(updated_contents)
+
         return True
     else:
         return False
 
 # Example usage
-html_file = 'table.svg'  
+table_file = 'table.svg'  
 
 app = Flask(__name__)
 @app.route('/update-color', methods=['POST'])
@@ -55,15 +64,13 @@ def update_color():
     location = data.get('pos')
     color = data.get('color') 
 
-    print(location, color)
-    edit_successful = edit_background_color(html_file, location, color)
+    edit_successful = edit_background_color(table_file, location, color)
     if edit_successful:
-        print("Background color updated successfully.")
+        return jsonify(message='Color updated successfully :)\n Wait a few minutes and it should be reflected on my profile:\nhttps://github.com/Alex-Hawking')
     else:
-        print("Element not found.")
+        return jsonify(message='Color update failed :(')
 
     
-    return jsonify(message='Color updated successfully')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000)) 
