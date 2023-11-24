@@ -1,8 +1,6 @@
 ![Profile Banner](./banner.png)
 
-# Hello World (⌐■ ͟ʖ■)
-
-I'm **Alex Hawking**, a developer from Western Australia. 🎵💻
+Hello World (⌐■ ͟ʖ■) I'm **Alex Hawking**, a developer from Western Australia. 🎵💻
 
 🖼️ Currently curating **community-created art** on my 16x16 digital canvas. Fancy adding your pixel? See how below!
 
