@@ -1,5 +1,7 @@
 
-`Hello World!` I'm **Alex Hawking**, a developer from Western Australia. 🎵💻
+# Hello World (⌐■ ͟ʖ■)
+
+I'm **Alex Hawking**, a developer from Western Australia. 🎵💻
 
 Currently curating **community-created art** on my 16x16 digital canvas you can see below. Fancy adding your pixel? See how below!
 
