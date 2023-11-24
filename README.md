@@ -38,6 +38,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"pos": "3x4", "color": "#F
 Replace "3x4" with the desired cell position and "#FF5733" with the color you want.
 
 **Recent Changes**
-Most recent change: 11x4 to #FFFF00
+Most recent change: 11x5 to #FFFF00
 
 ![](./table.svg)
