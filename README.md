@@ -12,7 +12,7 @@ Currently curating **community-created art** on my 16x16 digital canvas you can 
 ---
 
 **📢 Latest Canvas Update**
-- Most recent change: 3x3 to orange
+- Most recent change: 3x4 to #FF5733
 
 ## 🚀 Quick Links
 [My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
@@ -48,4 +48,4 @@ curl -X POST -H "Content-Type: application/json" -d '{"pos": "3x4", "color": "#F
 
 ## 📊 My GitHub Stats
 
-![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true)
+![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=Alex-Hawking&show_icons=true)
