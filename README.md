@@ -5,7 +5,7 @@ I'm Alex Hawking, and I'm passionate about music, code, and everything in betwee
 I am currently displaying some community-created art. Find out how to contribute below!
 
 **Recent Changes**
-Most recent change: 13x6 to #FF0000
+Most recent change: 14x6 to #FF0000
 
 ![](./table.svg)
 
