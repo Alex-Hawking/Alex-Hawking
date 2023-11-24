@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 from bs4 import BeautifulSoup
 import subprocess
-from git import Repo, GitCommandError
+import os
+
+github_token = os.environ.get('GITHUB_TOKEN')
+repo_url = f'https://Alex-Hawking:{github_token}@github.com/Alex-Hawking/Alex-Hawking.git'
 
 repo_path = '.'
 repo = Repo(repo_path)
@@ -24,24 +27,16 @@ def edit_background_color(html_file, element_id, new_color):
         with open(html_file, 'w') as file:
             file.write(str(soup))
 
-        try:
-            repo.git.add(A=True)
-        except GitCommandError as e:
-            print(f"Error: {e}")
-
-        commit_message = 'Update SVG file'
-        try:
-            repo.git.commit('-m', commit_message)
-        except GitCommandError as e:
-            print(f"Error: {e}")
-
-        remote_name = 'origin'
-        branch_name = 'master'  # Replace with your branch name
-
-        try:
-            repo.git.push(remote_name, branch_name)
-        except GitCommandError as e:
-            print(f"Error: {e}")
+        subprocess.run(['git', 'add', '.'])
+        commit_message = "Update: " + element_id + " to " + new_color
+        subprocess.run(['git', 'commit', '-m', commit_message])
+        subprocess.run(['git', 'push', repo_url, 'master'])
+        result = subprocess.run(['git', 'push', repo_url, 'master'], capture_output=True, text=True)
+        if result.returncode != 0:
+            print("Error pushing to GitHub:", result.stderr)
+            return False
+        else:
+            print("Pushed successfully:", result.stdout)
         return True
     else:
         return False
