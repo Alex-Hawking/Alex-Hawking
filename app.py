@@ -32,6 +32,14 @@ def edit_background_color(html_file, element_id, new_color):
 
         with open(html_file, 'w') as file:
             file.write(str(soup))
+        
+        with open('./README_template.md', 'r') as file:
+            readme_contents = file.read()
+
+        updated_contents = readme_contents.replace('$RECENT UPDATE$', "Most recent change: " + element_id + " to " + new_color)
+
+        with open('./README.md', 'w') as file:
+            file.write(updated_contents)
 
         subprocess.run(['git', 'add', '.'])
         commit_message = "Update: " + element_id + " to " + new_color
@@ -41,14 +49,6 @@ def edit_background_color(html_file, element_id, new_color):
         if result.returncode != 0:
             print("Error pushing to GitHub:", result.stderr)
             return False
-        
-        with open('./README_template.md', 'r') as file:
-            readme_contents = file.read()
-
-        updated_contents = readme_contents.replace('$RECENT UPDATE$', "Most recent change: " + element_id + " to " + new_color)
-
-        with open('./README.md', 'w') as file:
-            file.write(updated_contents)
 
         return True
     else:
