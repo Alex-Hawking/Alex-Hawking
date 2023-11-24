@@ -8,6 +8,8 @@ Hello World (⌐■ ͟ʖ■) I'm **Alex Hawking**, a developer from Western Aust
 
 ![](./table.svg)
 
+---
+
 **📢 Latest Canvas Update**
 - $RECENT UPDATE$
 
