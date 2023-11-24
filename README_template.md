@@ -2,7 +2,16 @@
 
 I'm Alex Hawking, and I'm passionate about music, code, and everything in between. 🎵💻
 
+I am currently displaying some community-created art. Find out how to contribute below!
+
+**Recent Changes**
+$RECENT UPDATE$
+
+![](./table.svg)
+
 [My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
+
+<br /><br />
 
 ### How to vandalise my profile
 
@@ -36,8 +45,3 @@ To change a cell color using curl, execute the following command in your termina
 curl -X POST -H "Content-Type: application/json" -d '{"pos": "3x4", "color": "#FF5733"}' https://git-profile-2fa28e441ca5.herokuapp.com/update-color
 ```
 Replace "3x4" with the desired cell position and "#FF5733" with the color you want.
-
-**Recent Changes**
-$RECENT UPDATE$
-
-![](./table.svg)
