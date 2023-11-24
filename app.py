@@ -6,9 +6,6 @@ import os
 github_token = os.environ.get('GITHUB_TOKEN')
 repo_url = f'https://Alex-Hawking:{github_token}@github.com/Alex-Hawking/Alex-Hawking.git'
 
-repo_path = '.'
-repo = Repo(repo_path)
-
 
 def edit_background_color(html_file, element_id, new_color):
     # Read the HTML file
