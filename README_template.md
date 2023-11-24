@@ -48,4 +48,4 @@ curl -X POST -H "Content-Type: application/json" -d '{"pos": "3x4", "color": "#F
 
 ## 📊 My GitHub Stats
 
-![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true)
+![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=Alex-Hawking&show_icons=true)
