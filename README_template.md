@@ -4,7 +4,7 @@ Hello World (⌐■ ͟ʖ■) I'm **Alex Hawking**, a developer from Western Aust
 
 🖼️ Currently curating **community-created art** on my 16x16 digital canvas. Fancy adding your pixel? See how below!
 
-## 📢 Latest Canvas Update
+**📢 Latest Canvas Update**
 - $RECENT UPDATE$
 
 ![](./table.svg)
