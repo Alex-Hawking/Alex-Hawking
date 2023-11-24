@@ -5,11 +5,13 @@ I'm Alex Hawking, and I'm passionate about music, code, and everything in betwee
 I am currently displaying some community-created art. Find out how to contribute below!
 
 **Recent Changes**
-$RECENT UPDATE$
+Most recent change: 12x5 to #FFFF00
 
 ![](./table.svg)
 
 [My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
+
+<br /><br />
 
 ### How to vandalise my profile
 
