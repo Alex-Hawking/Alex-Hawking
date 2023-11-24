@@ -1,47 +1,48 @@
-## Hello World (⌐■ ͟ʖ■) 
+![Profile Banner](./banner.png)
 
-I'm Alex Hawking, and I'm passionate about music, code, and everything in between. 🎵💻
+# Hello World (⌐■ ͟ʖ■)
 
-I am currently displaying some community-created art. Find out how to contribute below!
+I'm **Alex Hawking**, a developer from Western Australia. 🎵💻
 
-**Recent Changes**
-$RECENT UPDATE$
+🖼️ Currently curating **community-created art** on my 16x16 digital canvas. Fancy adding your pixel? See how below!
+
+## 📢 Latest Canvas Update
+- $RECENT UPDATE$
 
 ![](./table.svg)
 
+## 🚀 Quick Links
 [My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
 
-<br /><br />
+---
 
-### How to vandalise my profile
+## 🎨 Canvas Contributions - How to Vandalize Artistically
 
-As a fun (but poorly thought out project), you can now change the image displayed on the 16x16 grid on my README by sending a POST request to the endpoint described below.
+Want to ruin my potential employment oppurtunities? Paint on the canvas above! Just send a POST request:
 
-
-**Endpoint Information**
+### Endpoint Palette
 
 - **URL**: `https://git-profile-2fa28e441ca5.herokuapp.com/update-color`
-- **Method**: POST
-- **Content-Type**: application/json
+- **Method**: `POST`
+- **Consumes**: `application/json`
 
-**Request Format**
+### Pixel Placement Protocol
 
-Each request should be a JSON object containing two fields:
-- `pos`: The position of the cell in the format 'x-coord x y-coord'. For example, '3x4'.
-- `color`: The desired color in a valid CSS format (e.g., '#RRGGBB', 'rgb(r, g, b)').
-
-*Example JSON:*
 ```json
 {
-  "pos": "3x4",
-  "color": "#FF5733"
+  "pos": "x-coord x y-coord",
+  "color": "CSS color code"
 }
 ```
-**Example Request**
 
-To change a cell color using curl, execute the following command in your terminal:
+### Brush Stroke Example
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"pos": "3x4", "color": "#FF5733"}' https://git-profile-2fa28e441ca5.herokuapp.com/update-color
 ```
-Replace "3x4" with the desired cell position and "#FF5733" with the color you want.
+
+---
+
+## 📊 My GitHub Stats
+
+![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true)
