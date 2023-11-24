@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import subprocess
 import os
 
-github_token = os.environ.get('GITHUB_TOKEN')
+github_token = os.environ.get('TOKEN')
 repo_url = f'https://Alex-Hawking:{github_token}@github.com/Alex-Hawking/Alex-Hawking.git'
 
 
