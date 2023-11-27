@@ -12,7 +12,7 @@ Currently curating **community-created art** on my 16x16 digital canvas you can 
 ---
 
 **📢 Latest Canvas Update**
-- Most recent change: 9x1 to #FFFFFF
+- Most recent change: 9x2 to #FFFFFF
 
 ## 🚀 Quick Links
 [My Personal Website](https:/alexhawking.dev)  |  [LinkedIn Profile](https://www.linkedin.com/in/alex-hawking-3541b223a/)  |  [Instagram Profile](https://www.instagram.com/ah33803/)
