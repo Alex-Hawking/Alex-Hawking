@@ -60,6 +60,9 @@ table_file = 'table.svg'
 app = Flask(__name__)
 @app.route('/update-color', methods=['POST'])
 def update_color():
+    client = request.remote_addr
+    if client == os.environ.get('ENEMY'):
+        return jsonify(message='Go away')
     data = request.get_json()  
     location = data.get('pos')
     color = data.get('color') 
